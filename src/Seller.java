@@ -5,7 +5,7 @@ public class Seller {
     private String nameOfSeller;
     private int numberOfContracts;
     private int quantityOfCarrots;
-    private String AddressOfSeller;
+    private String addressOfSeller;
     private String registrationNumber;
 
     public String getNameOfSeller() {
@@ -17,11 +17,11 @@ public class Seller {
     }
 
     public String getAddressOfSeller() {
-        return AddressOfSeller;
+        return addressOfSeller;
     }
 
     public void setAddressOfSeller(String addressOfSeller) {
-        AddressOfSeller = addressOfSeller;
+        this.addressOfSeller = addressOfSeller;
     }
 
     private double carConsumption;
