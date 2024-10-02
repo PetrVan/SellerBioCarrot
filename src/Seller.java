@@ -7,6 +7,7 @@ public class Seller {
     private int quantityOfCarrots;
     private String addressOfSeller;
     private String registrationNumber;
+    private double carConsumption;
 
     public String getNameOfSeller() {
         return nameOfSeller;
@@ -24,5 +25,5 @@ public class Seller {
         this.addressOfSeller = addressOfSeller;
     }
 
-    private double carConsumption;
+
 }
